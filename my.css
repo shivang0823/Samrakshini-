@@ -1,0 +1,51 @@
+/* Samrakshini CSS */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Panic Button */
+.panic-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Community Feed */
+.community-feed {
+  list-style: none;
+  padding: 0;
+}
+
+.community-feed li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Incident Report Form */
+.incident-report-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.incident-report-form input,
+.incident-report-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.incident-report-form button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
